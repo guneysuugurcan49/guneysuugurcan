@@ -131,6 +131,10 @@ body {
     gap: 15px;
     z-index: 5;
     position: relative;
+    .contact-link {
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+    color: inherit; /* Rengini değiştirmez, beyaz bırakır */
+}
 }
 
 .contact-info p {
